@@ -1,6 +1,10 @@
+import os
+
+
 # --- CONFIGURATION ---
-FICHIER_LISTE = "src/data/mes_mangas.txt"
-FICHIER_SAUVEGARDE = "src/data/suivi_chapitres.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+FICHIER_LISTE = os.path.join(BASE_DIR, "data", "mes_mangas.txt")
+FICHIER_SAUVEGARDE = os.path.join(BASE_DIR, "data", "suivi_chapitres.json")
 FLARESOLVERR_URL = "http://localhost:8191/v1" # URL de FlareSolverr
 
 
