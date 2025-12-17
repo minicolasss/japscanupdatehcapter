@@ -6,6 +6,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FICHIER_LISTE = os.path.join(BASE_DIR, "data", "mes_mangas.txt")
 FICHIER_SAUVEGARDE = os.path.join(BASE_DIR, "data", "suivi_chapitres.json")
 FLARESOLVERR_URL = "http://localhost:8191/v1" # URL de FlareSolverr
+DISCORD_WEBHOOK_URL = "COLLE_TON_URL_WEBHOOK_DISCORD_ICI"
 
 
 # --- COULEURS TERMINAL ---
