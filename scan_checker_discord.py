@@ -8,6 +8,7 @@ from src.charger_suivi import charger_suivi
 from src.sauvegarde_suivi_discord import sauvegarder_suivi
 from src.verifier_manga import verifier_manga
 from src.config import FICHIER_LISTE
+from src.envoyer_discord import envoyer_discord
 
 def main():
     print(f"[{datetime.now().strftime('%d/%m %H:%M')}] Lancement du scan...")
